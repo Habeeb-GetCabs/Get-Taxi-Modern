@@ -35,6 +35,12 @@
   <script src="https://unpkg.com/lucide@latest"></script>
   <style>
     body { background-color: #09090b; }
+    
+    /* Custom Scrollbar for the Lists */
+    .custom-scrollbar::-webkit-scrollbar { width: 4px; }
+    .custom-scrollbar::-webkit-scrollbar-track { background: #111113; border-radius: 4px; }
+    .custom-scrollbar::-webkit-scrollbar-thumb { background: #3f3f46; border-radius: 4px; }
+    .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #f59e0b; }
   </style>
 </head>
 <body class="antialiased text-[#f1f5f9]">
@@ -91,8 +97,11 @@
         Your ascent to the Queen of Hill Stations starts by driving from Coimbatore towards the foothill town of Mettupalayam. The route is incredibly scenic, passing close to the beautiful Bhavani River. Mettupalayam serves as the gateway to the Nilgiris, where the plains meet the massive mountains.
       </p>
       
-      <div class="bg-[#111113] border border-zinc-800 rounded-2xl p-6 mt-6 mb-6">
-        <h3 class="flex items-center gap-2 font-bold text-brand-500 mb-2">Must-Visit En Route: Black Thunder Theme Park</h3>
+      <div class="bg-[#111113] border border-zinc-800 rounded-2xl p-6 mt-6 mb-6 overflow-hidden relative">
+        <h3 class="flex items-center gap-2 font-bold text-brand-500 mb-4 text-xl">Must-Visit En Route: Black Thunder Theme Park</h3>
+        
+        <img src="blog-black-thunder.png" alt="Black Thunder Theme Park" class="w-full h-48 sm:h-64 object-cover rounded-xl mb-5" onerror="this.src='https://images.unsplash.com/photo-1582252199205-02559595f9e9?auto=format&fit=crop&w=800&q=80'">
+
         <p class="text-zinc-300 text-sm leading-relaxed mb-4">
           If you want to add some thrill before climbing the hills (or dedicate a full day to it), Black Thunder Water Theme Park in Mettupalayam is an excellent choice. Set against the stunning backdrop of the Nilgiris, this massive water park is a favorite for families.
         </p>
@@ -116,6 +125,7 @@
       </p>
 
       <h3 class="font-serif font-bold text-2xl text-white mt-8">1. Sim's Park</h3>
+      <img src="blog-sims-park.png" alt="Sims Park Coonoor" class="w-full h-56 sm:h-72 object-cover rounded-2xl mt-4 mb-4 border border-zinc-800" onerror="this.src='https://images.unsplash.com/photo-1588880331179-bc9b93a8cb65?auto=format&fit=crop&w=800&q=80'">
       <p class="text-zinc-400 leading-relaxed text-base mb-4">
         Established over a century ago in 1874 by Major Murray and J.D. Sims, this meticulously maintained botanical garden spans 12 hectares. It is a nature enthusiast's paradise, home to over 1000 species of colorful flowers and rare, exotic trees from around the globe. Visitors can explore meandering walkways lined with lush flora, a dedicated rose garden, a glasshouse, and even enjoy paddle boating in the park's small lily pond. 
       </p>
@@ -125,6 +135,7 @@
       </ul>
 
       <h3 class="font-serif font-bold text-2xl text-white mt-8">2. Dolphin's Nose</h3>
+      <img src="blog-dolphins-nose.png" alt="Dolphins Nose Coonoor" class="w-full h-56 sm:h-72 object-cover rounded-2xl mt-4 mb-4 border border-zinc-800" onerror="this.src='https://images.unsplash.com/photo-1627894483216-2138af692e32?auto=format&fit=crop&w=800&q=80'">
       <p class="text-zinc-400 leading-relaxed text-base mb-4">
         Located about 12 km from Coonoor town, this spectacular natural viewpoint sits at an altitude of approximately 1,550 metres above sea level. The rocky protrusion bears an uncanny resemblance to the nose of a dolphin jutting out dramatically from the hillside. Standing at the fenced edge, you are rewarded with breathtaking panoramic views of rolling green tea estates, deep ravines, and the magnificent Catherine Falls sparkling in the distance.
       </p>
@@ -134,6 +145,7 @@
       </ul>
 
       <h3 class="font-serif font-bold text-2xl text-white mt-8">3. Lamb's Rock</h3>
+      <img src="blog-lambs-rock.png" alt="Lambs Rock Coonoor" class="w-full h-56 sm:h-72 object-cover rounded-2xl mt-4 mb-4 border border-zinc-800" onerror="this.src='https://images.unsplash.com/photo-1596484552993-9c8695d739c9?auto=format&fit=crop&w=800&q=80'">
       <p class="text-zinc-400 leading-relaxed text-base mb-10">
         Situated in Burliar village about 8 km from Coonoor, Lamb's Rock is another phenomenal cliffside viewpoint. Named after Captain Lamb, who originally developed the site out of personal interest, the cliff stands an impressive 5000 feet above sea level. It offers uninterrupted, sweeping views of the lush Hulical ravines and the distant Coimbatore plains. The drive to Lamb's Rock takes you through dense, aromatic tea gardens, making the journey just as memorable as the destination.
       </p>
@@ -145,11 +157,13 @@
       </p>
 
       <h3 class="font-serif font-bold text-2xl text-white mt-8">Government Botanical Garden</h3>
+      <img src="blog-botanical-garden.png" alt="Botanical Garden Ooty" class="w-full h-56 sm:h-72 object-cover rounded-2xl mt-4 mb-4 border border-zinc-800" onerror="this.src='https://images.unsplash.com/photo-1585320806297-9794b3e4ce11?auto=format&fit=crop&w=800&q=80'">
       <p class="text-zinc-400 leading-relaxed text-base mb-8">
         Spread over 55 acres, this historic garden is the vibrant heart of Ooty. It features stunning terraced layouts, a mesmerizing collection of exotic ferns, an Italian-style garden, and a fossilized tree trunk believed to be over 20 million years old. It is a fantastic spot for family picnics and nature photography.
       </p>
 
       <h3 class="font-serif font-bold text-2xl text-white mt-8">Ooty Lake & Boat House</h3>
+      <img src="blog-ooty-lake-boat.png" alt="Ooty Lake" class="w-full h-56 sm:h-72 object-cover rounded-2xl mt-4 mb-4 border border-zinc-800" onerror="this.src='https://images.unsplash.com/photo-1605557202138-097825cf3f36?auto=format&fit=crop&w=800&q=80'">
       <p class="text-zinc-400 leading-relaxed text-base mb-8">
         Constructed in the 1820s, this massive artificial lake is surrounded by tall, fragrant eucalyptus trees. Hiring a rowboat, pedal boat, or motorboat and gliding through the misty waters is one of the most quintessential Ooty experiences you cannot miss.
       </p>
@@ -159,13 +173,87 @@
         Standing at over 2,600 metres, Doddabetta is the highest peak in the entire Nilgiri mountain range. The panoramic view from the summit stretches across the entire valley, and on a clear, cloudless day, you can even spot the plains of Coimbatore and the distant highlands of Mysore!
       </p>
 
-      <div class="bg-[#161618] border border-zinc-800 rounded-2xl p-6 mt-10">
-        <h3 class="flex items-center gap-2 font-bold text-brand-500 mb-2"><i data-lucide="lightbulb" class="w-5 h-5"></i> Pro Travel Tip</h3>
-        <p class="text-zinc-300 text-sm leading-relaxed">
-          Because Ooty and Coonoor have dozens of beautiful spots spread across different altitudes and steep terrains, booking a dedicated, premium outstation cab like our Innova Crysta ensures you never have to worry about finding parking, navigating narrow local roads, or missing out on hidden gems.
-        </p>
+      <!-- Complete Sightseeing List Box -->
+      <div class="mt-12 bg-[#161618] border border-zinc-800 rounded-3xl p-6 sm:p-10 shadow-2xl">
+        <h2 class="font-serif font-bold text-3xl text-white mb-2">The Complete Sightseeing Checklist</h2>
+        <p class="text-zinc-400 text-sm mb-8">Planning a longer trip? Ask your Get Taxi Kovai driver to include any of these popular spots in your custom itinerary.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+          
+          <!-- Ooty List -->
+          <div>
+            <h3 class="font-bold text-xl text-brand-500 mb-4 border-b border-zinc-800 pb-3 flex items-center gap-2">
+              <i data-lucide="map-pin" class="w-5 h-5"></i> Ooty Sightseeing
+            </h3>
+            <ul class="list-disc pl-5 text-zinc-300 text-sm space-y-2.5 h-80 overflow-y-auto custom-scrollbar pr-4">
+              <li>Ooty Lake</li>
+              <li>Government Botanical Garden</li>
+              <li>Government Rose Garden</li>
+              <li>Doddabetta Peak</li>
+              <li>Tea Factory & Tea Museum</li>
+              <li>Nilgiri Mountain Railway (Toy Train)</li>
+              <li>Thread Garden</li>
+              <li>Boat House</li>
+              <li>Children's Park & Deer Park</li>
+              <li>Government Museum</li>
+              <li>Stone House</li>
+              <li>St. Stephen's Church & CSI Holy Trinity</li>
+              <li>Wax World Museum</li>
+              <li>Karnataka Siri Horticulture Garden</li>
+              <li>Thunder World & Mini Car Museum</li>
+              <li>Pine Forest & Pine Forest Road</li>
+              <li>Wenlock Downs / Shooting Point</li>
+              <li>6th Mile & 9th Mile Shooting Point</li>
+              <li>Kamaraj Sagar Dam (Sandynalla Reservoir)</li>
+              <li>Pykara Lake, Boat House & Falls</li>
+              <li>Emerald Lake & Avalanche Lake</li>
+              <li>Upper Bhavani & Mukurthi National Park</li>
+              <li>Parsons Valley & Kalhatti Falls</li>
+              <li>Tiger Hill & Elk Hill Murugan Temple</li>
+              <li>Toda Huts & Ooty Chocolate Factory</li>
+              <li>Hidden Valley & Bellikkal Lake</li>
+              <li>Ooty Golf Course</li>
+              <li>Needle Rock View Point (near Gudalur)</li>
+            </ul>
+          </div>
+
+          <!-- Coonoor List -->
+          <div>
+            <h3 class="font-bold text-xl text-brand-500 mb-4 border-b border-zinc-800 pb-3 flex items-center gap-2">
+              <i data-lucide="map" class="w-5 h-5"></i> Coonoor Sightseeing
+            </h3>
+            <ul class="list-disc pl-5 text-zinc-300 text-sm space-y-2.5 h-80 overflow-y-auto custom-scrollbar pr-4">
+              <li>Sim's Park</li>
+              <li>Dolphin's Nose View Point</li>
+              <li>Lamb's Rock</li>
+              <li>Catherine Falls View Point</li>
+              <li>Law's Falls & Katary Falls</li>
+              <li>Highfield Tea Factory</li>
+              <li>Droog Fort (Bakasura Malai)</li>
+              <li>Rallia Dam</li>
+              <li>Wellington Lake</li>
+              <li>Wellington Golf Course (view)</li>
+              <li>Wellington Military Museum</li>
+              <li>Lady Canning's Seat</li>
+              <li>Ketti Valley View</li>
+              <li>Pasteur Institute</li>
+              <li>Nilgiri Mountain Railway (Coonoor Station)</li>
+              <li>Tiger Hill Cemetery</li>
+              <li>Tranquilitea Tea Estate</li>
+              <li>Cordite Factory View</li>
+              <li>Coonoor Market</li>
+              <li>Pomological Station</li>
+              <li>Kattery Park</li>
+              <li>Burliar View Point</li>
+              <li>Black Bridge</li>
+              <li>All Saints Church & St. George's Church</li>
+              <li>Tea Gardens & Estate Viewpoints</li>
+            </ul>
+          </div>
+          
+        </div>
       </div>
-      
+
       <!-- Call to Action -->
       <div class="mt-14 pt-10 border-t border-zinc-800 text-center sm:text-left">
         <h3 class="font-serif font-bold text-2xl text-white mb-6">Ready to plan your Nilgiris escape?</h3>
