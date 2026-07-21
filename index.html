@@ -381,7 +381,7 @@
     </div>
   </section>
 
-  <!-- Tour Blogs Section -->
+  <!-- Tour Blogs Section (Linked to Separate HTML Pages) -->
   <section id="blogs" class="py-24 bg-[#161618] border-t border-zinc-900">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-4">
@@ -392,8 +392,8 @@
       </div>
       
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        <!-- Blog 1 -->
-        <div class="bg-[#09090b] border border-zinc-800 rounded-2xl overflow-hidden hover:border-brand-500 transition-colors group cursor-pointer">
+        <!-- Blog 1 Link -->
+        <a href="ooty-guide.html" class="block bg-[#09090b] border border-zinc-800 rounded-2xl overflow-hidden hover:border-brand-500 transition-colors group cursor-pointer">
           <div class="h-40 overflow-hidden relative">
             <img src="blog-ooty.png" alt="Ooty Guide" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.src='https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=500&q=80'">
           </div>
@@ -401,10 +401,10 @@
             <span class="text-[10px] font-mono text-brand-500 uppercase tracking-widest">Destination Guide</span>
             <h4 class="font-bold text-white text-sm leading-snug group-hover:text-brand-400 transition-colors">The Ultimate Ooty Weekend Itinerary</h4>
           </div>
-        </div>
+        </a>
         
-        <!-- Blog 2 -->
-        <div class="bg-[#09090b] border border-zinc-800 rounded-2xl overflow-hidden hover:border-brand-500 transition-colors group cursor-pointer">
+        <!-- Blog 2 Link -->
+        <a href="munnar-kodai.html" class="block bg-[#09090b] border border-zinc-800 rounded-2xl overflow-hidden hover:border-brand-500 transition-colors group cursor-pointer">
           <div class="h-40 overflow-hidden relative">
             <img src="blog-munnar-kodai.png" alt="Munnar vs Kodai" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.src='https://images.unsplash.com/photo-1593693397690-362cb9666fc2?w=500&q=80'">
           </div>
@@ -412,10 +412,10 @@
             <span class="text-[10px] font-mono text-brand-500 uppercase tracking-widest">Comparison</span>
             <h4 class="font-bold text-white text-sm leading-snug group-hover:text-brand-400 transition-colors">Munnar vs Kodaikanal: Which to Choose?</h4>
           </div>
-        </div>
+        </a>
         
-        <!-- Blog 3 -->
-        <div class="bg-[#09090b] border border-zinc-800 rounded-2xl overflow-hidden hover:border-brand-500 transition-colors group cursor-pointer">
+        <!-- Blog 3 Link -->
+        <a href="travel-tips.html" class="block bg-[#09090b] border border-zinc-800 rounded-2xl overflow-hidden hover:border-brand-500 transition-colors group cursor-pointer">
           <div class="h-40 overflow-hidden relative">
             <img src="blog-tips.png" alt="Travel Tips" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.src='https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=500&q=80'">
           </div>
@@ -423,10 +423,10 @@
             <span class="text-[10px] font-mono text-brand-500 uppercase tracking-widest">Travel Tips</span>
             <h4 class="font-bold text-white text-sm leading-snug group-hover:text-brand-400 transition-colors">5 Essential Tips for Safe Hill Driving</h4>
           </div>
-        </div>
+        </a>
         
-        <!-- Blog 4 -->
-        <div class="bg-[#09090b] border border-zinc-800 rounded-2xl overflow-hidden hover:border-brand-500 transition-colors group cursor-pointer">
+        <!-- Blog 4 Link -->
+        <a href="valparai-guide.html" class="block bg-[#09090b] border border-zinc-800 rounded-2xl overflow-hidden hover:border-brand-500 transition-colors group cursor-pointer">
           <div class="h-40 overflow-hidden relative">
             <img src="blog-valparai.png" alt="Valparai Guide" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.src='https://images.unsplash.com/photo-1616843413587-9e3a37f7bbd8?w=500&q=80'">
           </div>
@@ -434,7 +434,7 @@
             <span class="text-[10px] font-mono text-brand-500 uppercase tracking-widest">Hidden Gem</span>
             <h4 class="font-bold text-white text-sm leading-snug group-hover:text-brand-400 transition-colors">Exploring Valparai: The 40 Hairpin Ride</h4>
           </div>
-        </div>
+        </a>
       </div>
     </div>
   </section>
@@ -575,7 +575,6 @@
   </div>
 
   <script>
-    // Full 10 Destinations Array
     const DESTINATIONS = [
       { id: 'ooty', title: 'Ooty', slogan: 'Queen of Hill Stations', distanceKm: 180, daysNeeded: 3, time: '3.5 Hrs', desc: 'Spectacular tea estates and vintage toy trains.', image: 'dest-ooty.png', highlights: ['Tea gardens', 'Ooty Lake'] },
       { id: 'munnar', title: 'Munnar', slogan: 'Kashmir of South India', distanceKm: 320, daysNeeded: 3, time: '4.5 Hrs', desc: 'Majestic hill town rich with tea carpets.', image: 'dest-munnar.png', highlights: ['Eravikulam Park', 'Tea Museum'] },
