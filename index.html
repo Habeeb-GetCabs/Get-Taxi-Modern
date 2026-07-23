@@ -126,7 +126,6 @@
   <!-- Hero & Form Overlay -->
   <section class="relative min-h-screen bg-zinc-950 flex items-center pt-24 pb-12 overflow-hidden">
     <div class="absolute inset-0 z-0">
-      <!-- Video tag updated with preload="auto" -->
       <video autoplay loop muted playsinline preload="auto" class="w-full h-full object-cover opacity-30">
         <source src="YOUR_COMPRESSED_VIDEO.mp4" type="video/mp4">
         <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&q=80&w=1920" class="w-full h-full object-cover opacity-30" />
@@ -394,7 +393,7 @@
       
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         <!-- Blog 1 Link -->
-        <a href="ooty-guide.html" class="block bg-[#09090b] border border-zinc-800 rounded-2xl overflow-hidden hover:border-brand-500 transition-colors group cursor-pointer">
+        <a href="coimbatore-to-ooty-guide.html" class="block bg-[#09090b] border border-zinc-800 rounded-2xl overflow-hidden hover:border-brand-500 transition-colors group cursor-pointer">
           <div class="h-40 overflow-hidden relative">
             <img src="blog-ooty.png" alt="Ooty Guide" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.src='https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=500&q=80'">
           </div>
@@ -577,16 +576,16 @@
 
   <script>
     const DESTINATIONS = [
-      { id: 'ooty', title: 'Ooty', slogan: 'Queen of Hill Stations', distanceKm: 180, daysNeeded: 3, time: '3.5 Hrs', desc: 'Spectacular tea estates and vintage toy trains.', image: 'dest-ooty.png', highlights: ['Tea gardens', 'Ooty Lake'] },
-      { id: 'munnar', title: 'Munnar', slogan: 'Kashmir of South India', distanceKm: 320, daysNeeded: 3, time: '4.5 Hrs', desc: 'Majestic hill town rich with tea carpets.', image: 'dest-munnar.png', highlights: ['Eravikulam Park', 'Tea Museum'] },
-      { id: 'kodaikanal', title: 'Kodaikanal', slogan: 'Princess of Hill Stations', distanceKm: 340, daysNeeded: 3, time: '4.5 Hrs', desc: 'Mystical pine groves and star-shaped lake.', image: 'dest-kodaikanal.png', highlights: ['Kodaikanal Lake', 'Pillar Rocks'] },
-      { id: 'coorg', title: 'Coorg (Kodagu)', slogan: 'Scotland of India', distanceKm: 620, daysNeeded: 4, time: '7 Hrs', desc: 'Misty mountain forests and coffee gardens.', image: 'dest-coorg.png', highlights: ['Abbey Waterfalls', 'Dubare Camp'] },
-      { id: 'wayanad', title: 'Wayanad', slogan: 'Sub-tropical Wilderness', distanceKm: 480, daysNeeded: 4, time: '6 Hrs', desc: 'Lush Kerala forest upland plateau.', image: 'dest-wayanad.png', highlights: ['Edakkal Caves', 'Banasura Dam'] },
-      { id: 'valparai', title: 'Valparai', slogan: '40 Hairpin Ghat Ride', distanceKm: 220, daysNeeded: 2, time: '3.5 Hrs', desc: 'Offbeat Western Ghats paradise.', image: 'dest-valparai.png', highlights: ['40 Hairpin Curves', 'Sholayar Dam'] },
-      { id: 'coonoor', title: 'Coonoor', slogan: 'Nilgiri Heritage Tea Hills', distanceKm: 140, daysNeeded: 2, time: '2.5 Hrs', desc: 'Peaceful climate and panoramic views.', image: 'dest-coonoor.png', highlights: ['Sims Park', 'Dolphins Nose'] },
-      { id: 'mysore', title: 'Mysore', slogan: 'City of Palaces', distanceKm: 400, daysNeeded: 2, time: '4.5 Hrs', desc: 'Dazzling royal palaces and heritage markets.', image: 'dest-mysore.png', highlights: ['Glittering Palace', 'Chamundi Hill'] },
-      { id: 'adiyogi', title: 'Isha Yoga & Adiyogi', slogan: 'Spiritual Epicenter', distanceKm: 60, daysNeeded: 1, time: '1.2 Hrs', desc: 'Magnificent 112-foot tall Adiyogi statue.', image: 'Dest-adiyogi.png', highlights: ['112-foot Adiyogi', 'Dhyanalinga'] },
-      { id: 'madurai', title: 'Madurai', slogan: 'Temple City', distanceKm: 420, daysNeeded: 2, time: '4.5 Hrs', desc: 'Colossal Meenakshi Amman Temple.', image: 'dest-madurai.png', highlights: ['Meenakshi Amman', 'Thirumalai Palace'] }
+      { id: 'ooty', title: 'Ooty', slogan: 'Queen of Hill Stations', distanceKm: 180, daysNeeded: 3, time: '3.5 Hrs', desc: 'Spectacular tea estates and vintage toy trains.', image: 'dest-ooty.png', highlights: ['Tea gardens', 'Ooty Lake'], link: 'coimbatore-to-ooty-guide.html' },
+      { id: 'munnar', title: 'Munnar', slogan: 'Kashmir of South India', distanceKm: 320, daysNeeded: 3, time: '4.5 Hrs', desc: 'Majestic hill town rich with tea carpets.', image: 'dest-munnar.png', highlights: ['Eravikulam Park', 'Tea Museum'], link: 'munnar-kodai.html' },
+      { id: 'kodaikanal', title: 'Kodaikanal', slogan: 'Princess of Hill Stations', distanceKm: 340, daysNeeded: 3, time: '4.5 Hrs', desc: 'Mystical pine groves and star-shaped lake.', image: 'dest-kodaikanal.png', highlights: ['Kodaikanal Lake', 'Pillar Rocks'], link: 'munnar-kodai.html' },
+      { id: 'coorg', title: 'Coorg (Kodagu)', slogan: 'Scotland of India', distanceKm: 620, daysNeeded: 4, time: '7 Hrs', desc: 'Misty mountain forests and coffee gardens.', image: 'dest-coorg.png', highlights: ['Abbey Waterfalls', 'Dubare Camp'], link: 'coorg-guide.html' },
+      { id: 'wayanad', title: 'Wayanad', slogan: 'Sub-tropical Wilderness', distanceKm: 480, daysNeeded: 4, time: '6 Hrs', desc: 'Lush Kerala forest upland plateau.', image: 'dest-wayanad.png', highlights: ['Edakkal Caves', 'Banasura Dam'], link: 'wayanad-guide.html' },
+      { id: 'valparai', title: 'Valparai', slogan: '40 Hairpin Ghat Ride', distanceKm: 220, daysNeeded: 2, time: '3.5 Hrs', desc: 'Offbeat Western Ghats paradise.', image: 'dest-valparai.png', highlights: ['40 Hairpin Curves', 'Sholayar Dam'], link: 'valparai-guide.html' },
+      { id: 'coonoor', title: 'Coonoor', slogan: 'Nilgiri Heritage Tea Hills', distanceKm: 140, daysNeeded: 2, time: '2.5 Hrs', desc: 'Peaceful climate and panoramic views.', image: 'dest-coonoor.png', highlights: ['Sims Park', 'Dolphins Nose'], link: 'coimbatore-to-ooty-guide.html' },
+      { id: 'mysore', title: 'Mysore', slogan: 'City of Palaces', distanceKm: 400, daysNeeded: 2, time: '4.5 Hrs', desc: 'Dazzling royal palaces and heritage markets.', image: 'dest-mysore.png', highlights: ['Glittering Palace', 'Chamundi Hill'], link: 'mysore-guide.html' },
+      { id: 'adiyogi', title: 'Isha Yoga & Adiyogi', slogan: 'Spiritual Epicenter', distanceKm: 60, daysNeeded: 1, time: '1.2 Hrs', desc: 'Magnificent 112-foot tall Adiyogi statue.', image: 'Dest-adiyogi.png', highlights: ['112-foot Adiyogi', 'Dhyanalinga'], link: 'adiyogi-guide.html' },
+      { id: 'madurai', title: 'Madurai', slogan: 'Temple City', distanceKm: 420, daysNeeded: 2, time: '4.5 Hrs', desc: 'Colossal Meenakshi Amman Temple.', image: 'dest-madurai.png', highlights: ['Meenakshi Amman', 'Thirumalai Palace'], link: 'madurai-guide.html' }
     ];
 
     let activeTripType = 'local';
@@ -642,9 +641,9 @@
               <div class="flex items-center gap-1.5"><i data-lucide="map" class="w-4 h-4 text-brand-500"></i><span>${dest.distanceKm} KM Trip</span></div>
               <div class="flex items-center gap-1.5"><i data-lucide="clock" class="w-4 h-4 text-brand-500"></i><span>${dest.time}</span></div>
             </div>
-            <button onclick="bookDestination('${dest.title}')" class="w-full bg-white hover:bg-zinc-300 text-black font-bold py-3.5 rounded-xl text-sm tracking-wide transition-all">
-              Calculate Ride Estimate
-            </button>
+            <a href="${dest.link}" class="w-full bg-white hover:bg-zinc-300 text-black font-bold py-3.5 rounded-xl text-sm tracking-wide transition-all inline-flex justify-center items-center">
+              View Tour Details
+            </a>
           </div>
         `;
         grid.appendChild(card);
@@ -667,8 +666,9 @@
       hillStation.style.display = (type === 'one_way' || type === 'round_trip') ? 'flex' : 'none';
       
       if (type === 'local') {
-        dropInput.value = 'Coimbatore Local Use';
-        dropInput.disabled = true; dropDateTime.classList.add('hidden'); dropDateTime.classList.remove('grid');
+        dropInput.value = '';
+        dropInput.placeholder = 'Where to within the city?';
+        dropInput.disabled = false; dropDateTime.classList.add('hidden'); dropDateTime.classList.remove('grid');
         disclaimer.innerHTML = 'Tolls & parking extra · Call <span class="font-bold text-gray-900">90437 43777</span>';
       } else if (type === 'airport') {
         dropInput.value = 'Coimbatore Airport (CJB)';
